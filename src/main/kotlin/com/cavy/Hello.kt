@@ -5,6 +5,9 @@ fun main(args: Array<String>) {
 //    Human().hello()
     val h = Human();
     h.hello();
+    var age :Int = 20;
+    
+
 }
 
 class Human{

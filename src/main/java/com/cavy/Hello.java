@@ -6,7 +6,10 @@ public class Hello {
 //        new Person().hello();
         Person p = new Person();
         p.hello();
-        int age = 87;
-        float weight = 87.7f;
+        p.weight = 66.5f;
+        p.height = 1.7f ;
+        System.out.println(p.bmi());
+
+
     }
 }

@@ -1,6 +1,4 @@
 package com.cavy.student;
-
-
 import java.util.Scanner;
 
 public class School {
@@ -14,5 +12,6 @@ public class School {
         int math = scanner.nextInt();
         Student stu = new Student(name,english,math);
         stu.print();
+        System.out.println("high score : " + stu.highest());
     }
 }
